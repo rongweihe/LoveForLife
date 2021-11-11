@@ -39,7 +39,7 @@ $(window).resize(function() {
 
 function timeElapse(date){
 	var current = new Date();
-	current.setFullYear(2021,10,10);
+	current.setFullYear(2021,5,11);
 	var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
 	var days = Math.floor(seconds / (3600 * 24));
 	seconds = seconds % (3600 * 24);
